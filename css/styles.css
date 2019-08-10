@@ -23,9 +23,9 @@ img {
   -webkit-transform: scale(1.001);
   max-width: 100%;
   border-radius: 50%;
-  webkit-filter: blur(2.5px); /* Chrome, Safari, Opera */
+  -webkit-filter: blur(2.5px); /* Chrome, Safari, Opera */
   filter: blur(2.5px);
-  webkit-transition: all .8 ease-in-out;
+  -webkit-transition: all .8 ease-in-out;
 }
 
 .hover:hover button {
