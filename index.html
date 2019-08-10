@@ -3,88 +3,86 @@
 <head>
   <title>Reality Escapers</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="./css/styles.css">
-  <style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap">
+<link rel="stylesheet" href="./css/styles.css">
 
-    body {
-      font-family: 'Amatic SC', cursive;
-    }
+<style>
+	body {
+  		font-family: 'Amatic SC', cursive;
+	}
 
-    .navbar {
-      overflow: hidden;
-      background-color: rgba(0,0,0,0.3);
-    }
+	.navbar {
+  		overflow: hidden;
+  		background-color: rgba(0,0,0,0.3);
+	}
 
-    .navbar a {
-      float: left;
-      font-size: 16px;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-    }
+	.navbar a {
+  		float: left;
+  		font-size: 16px;
+  		color: white;
+  		text-align: center;
+  		padding: 14px 16px;
+  		text-decoration: none;
+	}
 
-    .dropdown {
-      float: left;
-      overflow: hidden;
-    }
+	.dropdown {
+  		float: left;
+  		overflow: hidden;
+	}
 
-    .dropdown .dropbtn {
-      font-size: 16px;
-      border: none;
-      outline: none;
-      color: white;
-      padding: 14px 16px;
-      background-color: inherit;
-      font-family: inherit;
-      margin: 0;
-    }
+	.dropdown .dropbtn {
+  		font-size: 16px;
+  		border: none;
+  		outline: none;
+  		color: white;
+  		padding: 14px 16px;
+  		background-color: inherit;
+  		font-family: inherit;
+  		margin: 0;
+	}
 
-    .navbar a:hover, .dropdown:hover .dropbtn {
-      background-color: rgba(0,0,0,0.2);
-    }
+	.navbar a:hover, .dropdown:hover .dropbtn {
+  		background-color: rgba(0,0,0,0.5);
+	}
 
-    .dropdown-content {
-      display: none;
-      position: absolute;
-      background-color: rgba(0,0,0,0.3);
-      min-width: 160px;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      z-index: 1;
-    }
+	.dropdown-content {
+  		display: none;
+  		position: absolute;
+  		background-color: #f9f9f9;
+  		min-width: 160px;
+  		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  		z-index: 1;
+	}
 
-    .dropdown-content a {
-      float: none;
-      color: black;
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-      text-align: left;
-    }
+	.dropdown-content a {
+  		float: none;
+  		color: black;
+  		padding: 12px 16px;
+  		text-decoration: none;
+  		display: block;
+  		text-align: left;
+	}
 
-    .dropdown-content a:hover {
-      background-color: rgba(0,0,0,0.3);
-    }
+	.dropdown-content a:hover {
+  		background-color: #ddd;
+	}
 
-    .dropdown:hover .dropdown-content {
-      display: block;
-    }
-  </style>
+	.dropdown:hover .dropdown-content {
+  		display: block;
+	}
+
+</style>
 </head>
+<body>
 
-<body class='background'>
-  <div class="navbar">
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <div class="dropdown">
-      <button class="dropbtn">
-        Countries
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
+<div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#news">About</a>
+  <div class="dropdown">
+    <button class="dropbtn">Countries
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
         <a href="#">France</a>
         <a href="#">Germany</a>
         <a href="#">Greece</a>
@@ -93,10 +91,10 @@
         <a href="#">Switzerland</a>
         <a href="#">Turkey</a>
         <a href="#">United Kingdom</a>
-      </div>
     </div>
-    <a href="#">Contact Us</a>
   </div>
+  <a href="#">Contact Us</a>
+</div>
 
   <div class='container'>
     <div class="grid">
