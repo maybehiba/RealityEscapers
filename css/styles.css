@@ -24,7 +24,7 @@ img {
   border-radius: 50%;
   -webkit-filter: blur(2.5px); /* Chrome, Safari, Opera */
   filter: blur(2.5px);
-  -webkit-transition: all .8 ease-in-out;
+  transition: all .8 ease-in-out;
 }
 
 .hover:hover button {
