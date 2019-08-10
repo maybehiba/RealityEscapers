@@ -105,3 +105,7 @@ body {
   background: linear-gradient(30deg, #f00, #fff);
   height: 150px;
 }
+
+.middle > button {
+    font-family: 'Amatic SC', cursive;
+}
