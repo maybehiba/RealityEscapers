@@ -1,1 +1,107 @@
+body {
+  font-family: 'Amatic SC', cursive;
+  background: url("../background.png");
+    background-size: cover;
+    background-blend-mode: saturation;
+    background-repeat: repeat;
+    background-size: contain;
 
+}
+
+img {
+    /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+      filter: gray; /* IE5+ */
+      -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+      -webkit-transition: all .8s ease-in-out;
+      max-width: 100%;
+      border-radius: 50%;
+}
+
+.hover:hover img {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.001);
+  max-width: 100%;
+  border-radius: 50%;
+  webkit-filter: blur(2.5px); /* Chrome, Safari, Opera */
+  filter: blur(2.5px);
+}
+
+.hover:hover button {
+  color: white;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.img-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+
+.grid-tile .button {
+  background-color: transparent;
+  border: transparent;
+}
+
+.grid-tile .button a {
+  color: #fff;
+}
+
+.grid-tile .middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.grid-tile:hover .middle {
+  border: 1px solid #fff;
+  opacity: 1;
+}
+
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.grid-tile {
+  flex: 0 0 50%;
+  width: 50%;
+  padding: 10px 10px;
+  }
+
+  @media screen and (min-width: 1024px) {
+  .grid-tile {
+    flex-basis: 25%;
+    width: 25%;
+  }
+ }
+
+.grid-tile-content {
+  background: linear-gradient(30deg, #f00, #fff);
+  height: 150px;
+}
