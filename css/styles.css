@@ -11,6 +11,10 @@ body {
       border-radius: 50%;
 }
 
+.some-selector .container img {
+  max-width: 100%;
+  border-radius: 50%;
+}
 
 .hover:hover img {
   filter: none;
