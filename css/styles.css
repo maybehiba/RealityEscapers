@@ -15,8 +15,6 @@ img .container {
   filter: none;
   -webkit-filter: grayscale(0);
   -webkit-transform: scale(1.001);
-  max-width: 100%;
-  border-radius: 50%;
   -webkit-filter: blur(2.5px); /* Chrome, Safari, Opera */
   filter: blur(2.5px);
   transition: all .8 ease-in-out;
