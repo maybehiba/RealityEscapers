@@ -11,7 +11,7 @@ body {
       border-radius: 50%;
 }
 
-.some-selector .container img {
+.some-selector .container-fluid img {
   max-width: 100%;
   border-radius: 50%;
 }
