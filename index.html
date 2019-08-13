@@ -1,218 +1,230 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-  <meta name="generator" content=
-  "HTML Tidy for Linux (vers 25 March 2009), see www.w3.org" />
-
   <title>Reality Escapers</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href=
-  "https://fonts.googleapis.com/css?family=Amatic+SC&amp;display=swap" type="text/css" />
-  <link rel="stylesheet" href="./css/styles.css" type="text/css" />
-  <link rel="stylesheet" href=
-  "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type=
-  "text/css" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" type=
-  "text/javascript">
-</script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-  type="text/javascript">
-</script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" type=
-  "text/javascript">
-</script>
-  <style type="text/css">
-/*<![CDATA[*/
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<style>
+
   .carousel-inner img {
     width: 100%;
     height: 100%;
   }
-        body {
-                font-family: 'Amatic SC', cursive;
-        }
-        .navbar {
-                overflow: hidden;
-                background-color: rgba(0,0,0,0.3);
-        }
-        .navbar a {
-                float: left;
-                font-size: 16px;
-                color: white;
-                text-align: center;
-                padding: 14px 16px;
-                text-decoration: none;
-        }
-        .dropdown {
-                float: left;
-                overflow: hidden;
-        }
-        .dropdown .dropbtn {
-                font-size: 16px;
-                border: none;
-                outline: none;
-                color: white;
-                padding: 14px 16px;
-                background-color: inherit;
-                font-family: inherit;
-                margin: 0;
-        }
-        .navbar a:hover, .dropdown:hover .dropbtn {
-                background-color: rgba(0,0,0,0.5);
-        }
-        .dropdown-content {
-                display: none;
-                position: absolute;
-                background-color: #f9f9f9;
-                min-width: 160px;
-                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-                z-index: 1;
-        }
-        .dropdown-content a {
-                float: none;
-                color: black;
-                padding: 12px 16px;
-                text-decoration: none;
-                display: block;
-                text-align: left;
-        }
-        .dropdown-content a:hover {
-                background-color: #ddd;
-        }
-        .dropdown:hover .dropdown-content {
-                display: block;
-        }
-  /*]]>*/
-  </style>
+
+	body {
+  		font-family: 'Amatic SC', cursive;
+	}
+
+	.navbar {
+  		overflow: hidden;
+  		background-color: rgba(0,0,0,0.3);
+	}
+
+	.navbar a {
+  		float: left;
+  		font-size: 16px;
+  		color: white;
+  		text-align: center;
+  		padding: 14px 16px;
+  		text-decoration: none;
+	}
+
+	.dropdown {
+  		float: left;
+  		overflow: hidden;
+	}
+
+	.dropdown .dropbtn {
+  		font-size: 16px;
+  		border: none;
+  		outline: none;
+  		color: white;
+  		padding: 14px 16px;
+  		background-color: inherit;
+  		font-family: inherit;
+  		margin: 0;
+	}
+
+	.navbar a:hover, .dropdown:hover .dropbtn {
+  		background-color: rgba(0,0,0,0.5);
+	}
+
+	.dropdown-content {
+  		display: none;
+  		position: absolute;
+  		background-color: #f9f9f9;
+  		min-width: 160px;
+  		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  		z-index: 1;
+	}
+
+	.dropdown-content a {
+  		float: none;
+  		color: black;
+  		padding: 12px 16px;
+  		text-decoration: none;
+  		display: block;
+  		text-align: left;
+	}
+
+	.dropdown-content a:hover {
+  		background-color: #ddd;
+	}
+
+	.dropdown:hover .dropdown-content {
+  		display: block;
+	}
+
+</style>
 </head>
-
 <body>
-  <div class="navbar">
-    <a href="https://hibatulahh.github.io/RealityEscapers/">Home</a> <a href=
-    "https://hibatulahh.github.io/RealityEscapers/About.html">About</a>
 
-    <div class="dropdown">
-      <button class="dropbtn">Countries</button>
+<div class="navbar">
+  <a href="https://hibatulahh.github.io/RealityEscapers/">Home</a>
+  <a href="https://hibatulahh.github.io/RealityEscapers/About.html">About</a>
+  <div class="dropdown">
+    <button class="dropbtn">Countries
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+        <a href="./Countries/France.html">France</a>
+        <a href="./Countries/Germany.html">Germany</a>
+        <a href="./Countries/Greece.html">Greece</a>
+        <a href="./Countries/Italy.html">Italy</a>
+        <a href="./Countries/Spain.html">Spain</a>
+        <a href="./Countries/Switzerland.html">Switzerland</a>
+        <a href="./Countries/Turkey.html">Turkey</a>
+        <a href="./Countries/United-Kingdom.html">United Kingdom</a>
+    </div>
+  </div>
+  <a href="https://hibatulahh.github.io/RealityEscapers/Contact-Us.html">Contact Us</a>
+</div>
 
-      <div class="dropdown-content">
-        <a href="./Countries/France.html">France</a> <a href=
-        "./Countries/Germany.html">Germany</a> <a href=
-        "./Countries/Greece.html">Greece</a> <a href="./Countries/Italy.html">Italy</a>
-        <a href="./Countries/Spain.html">Spain</a> <a href=
-        "./Countries/Switzerland.html">Switzerland</a> <a href=
-        "./Countries/Turkey.html">Turkey</a> <a href=
-        "./Countries/United-Kingdom.html">United Kingdom</a>
-      </div>
-    </div><a href="https://hibatulahh.github.io/RealityEscapers/Contact-Us.html">Contact
-    Us</a>
+<div class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+    <li data-target="#demo" data-slide-to="4"></li>
+    <li data-target="#demo" data-slide-to="5"></li>
+
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://www.flightnetwork.com/worlds-best-beaches/wp-content/uploads/2018/10/header-europe-beach1.jpg" alt="Los Angeles" width="1100" height="500">
+    </div>
+
+    <div class="carousel-item">
+      <img src="https://www.flightnetwork.com/worlds-best-beaches/wp-content/uploads/2018/10/header-europe-beach33.jpg" alt="Chicago" width="1100" height="500">
+    </div>
+
+    <div class="carousel-item">
+      <img src="https://ecosinform.ru/800/600/https/kuku.travel/wp-content/uploads/2018/04/%D0%9F%D0%BB%D1%8F%D0%B6-%D0%90%D0%BB%D0%B3%D0%B0%D1%80%D0%B2%D0%B5-%D0%9F%D0%BE%D1%80%D1%82%D1%83%D0%B3%D0%B0%D0%BB%D0%B8%D1%8F.jpg" alt="New York" width="1100" height="500">
+    </div>
+
+     <div class="carousel-item">
+      <img src="https://www.flightnetwork.com/blog/wp-content/uploads/2018/06/header-journey8.jpg" alt="New York" width="1100" height="500">
+    </div>
+
+     <div class="carousel-item">
+      <img src="https://www.flightnetwork.com/worlds-best-beaches/wp-content/uploads/2018/10/header-europe-beach37-1.jpg" alt="New York" width="1100" height="500">
+    </div>
+
+     <div class="carousel-item">
+      <img src="https://www.flightnetwork.com/worlds-best-beaches/wp-content/uploads/2018/10/header-european-beach31.jpg" alt="New York" width="1100" height="500">
+    </div>
   </div>
 
-  <div class="carousel slide" data-ride="carousel">
-    <ul class="carousel-indicators"></ul>
-
-    <div class="carousel-inner">
-      <div class="carousel-item active"><img src=
-      "https://www.flightnetwork.com/worlds-best-beaches/wp-content/uploads/2018/10/header-europe-beach1.jpg"
-      alt="Los Angeles" width="1100" height="500" /></div>
-
-      <div class="carousel-item"><img src=
-      "https://www.flightnetwork.com/worlds-best-beaches/wp-content/uploads/2018/10/header-europe-beach33.jpg"
-      alt="Chicago" width="1100" height="500" /></div>
-
-      <div class="carousel-item"><img src=
-      "https://ecosinform.ru/800/600/https/kuku.travel/wp-content/uploads/2018/04/%D0%9F%D0%BB%D1%8F%D0%B6-%D0%90%D0%BB%D0%B3%D0%B0%D1%80%D0%B2%D0%B5-%D0%9F%D0%BE%D1%80%D1%82%D1%83%D0%B3%D0%B0%D0%BB%D0%B8%D1%8F.jpg"
-      alt="New York" width="1100" height="500" /></div>
-
-      <div class="carousel-item"><img src=
-      "https://www.flightnetwork.com/blog/wp-content/uploads/2018/06/header-journey8.jpg"
-      alt="New York" width="1100" height="500" /></div>
-
-      <div class="carousel-item"><img src=
-      "https://www.flightnetwork.com/worlds-best-beaches/wp-content/uploads/2018/10/header-europe-beach37-1.jpg"
-      alt="New York" width="1100" height="500" /></div>
-
-      <div class="carousel-item"><img src=
-      "https://www.flightnetwork.com/worlds-best-beaches/wp-content/uploads/2018/10/header-european-beach31.jpg"
-      alt="New York" width="1100" height="500" /></div>
-    </div><a class="carousel-control-prev" href="#demo" data-slide="prev"></a> <a class=
-    "carousel-control-next" href="#demo" data-slide="next"></a>
-  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
 
   <div class="container-fluid">
     <div class="grid">
-      <div class="grid-tile img-container">
-        <a class='hover' href="./Countries/France.html"><img src="./Images/France.png"
-        alt="France" /></a>
 
-        <div class="middle">
-          <button class="button">France</button>
-        </div>
+      <div class="grid-tile img-container">
+        <a class='hover' href="./Countries/France.html">
+          <img src="./Images/France.png" alt="France">
+          <div class="middle">
+            <button class="button">France</button>
+          </div>
+        </a>
       </div>
 
       <div class="grid-tile img-container">
-        <a class='hover' href="./Countries/Germany.html"><img src="./Images/Germany.png"
-        alt="Germany" /></a>
-
-        <div class="middle">
-          <button class="button">Germany</button>
-        </div>
+        <a class='hover' href="./Countries/Germany.html">
+          <img src="./Images/Germany.png" alt="Germany">
+          <div class="middle">
+            <button class="button">Germany</button>
+          </div>
+        </a>
       </div>
 
       <div class="grid-tile img-container">
-        <a class='hover' href="./Countries/Greece.html"><img src="./Images/Greece.png"
-        alt="Greece" /></a>
-
-        <div class="middle">
-          <button class="button">Greece</button>
-        </div>
+        <a class='hover' href="./Countries/Greece.html">
+          <img src="./Images/Greece.png" alt="Greece">
+          <div class="middle">
+            <button class="button">Greece</button>
+          </div>
+        </a>
       </div>
 
       <div class="grid-tile img-container">
-        <a class='hover' href="./Countries/Italy.html"><img src="./Images/Italy.png" alt=
-        "Italy" /></a>
+        <a class='hover' href="./Countries/Italy.html">
+          <img src="./Images/Italy.png" alt="Italy">
+          <div class="middle">
+            <button class="button">Italy</button>
+          </div>
+        </a>
+    </div>
 
-        <div class="middle">
-          <button class="button">Italy</button>
-        </div>
+      <div class="grid-tile img-container">
+        <a class='hover' href="./Countries/Spain.html">
+          <img src="./Images/Spain.png" alt="Spain">
+          <div class="middle">
+            <button class="button">Spain</button>
+          </div>
+        </a>
       </div>
 
       <div class="grid-tile img-container">
-        <a class='hover' href="./Countries/Spain.html"><img src="./Images/Spain.png" alt=
-        "Spain" /></a>
-
-        <div class="middle">
-          <button class="button">Spain</button>
-        </div>
+        <a class='hover' href="./Countries/Switzerland.html">
+          <img src="./Images/Switzerland.png" alt="Switzerland">
+          <div class="middle">
+            <button class="button">Switzerland</button>
+          </div>
+        </a>
       </div>
 
       <div class="grid-tile img-container">
-        <a class='hover' href="./Countries/Switzerland.html"><img src=
-        "./Images/Switzerland.png" alt="Switzerland" /></a>
-
-        <div class="middle">
-          <button class="button">Switzerland</button>
-        </div>
+        <a class='hover' href="./Countries/Turkey.html">
+          <img src="./Images/Turkey.png" alt="Turkey">
+          <div class="middle">
+            <button class="button">Turkey</button>
+          </div>
+        </a>
       </div>
 
       <div class="grid-tile img-container">
-        <a class='hover' href="./Countries/Turkey.html"><img src="./Images/Turkey.png"
-        alt="Turkey" /></a>
-
-        <div class="middle">
-          <button class="button">Turkey</button>
-        </div>
+        <a class='hover' href="./Countries/United-Kingdom.html">
+          <img src="./Images/United Kingdom.png" alt="United Kingdom">
+          <div class="middle">
+            <button class="button">United Kingdom</button>
+          </div>
+        </a>
       </div>
 
-      <div class="grid-tile img-container">
-        <a class='hover' href="./Countries/United-Kingdom.html"><img src=
-        "./Images/United%20Kingdom.png" alt="United Kingdom" /></a>
-
-        <div class="middle">
-          <button class="button">United Kingdom</button>
-        </div>
-      </div>
-      
     </div>
   </div>
 </body>
