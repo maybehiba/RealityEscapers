@@ -106,7 +106,7 @@ body {
 
 .middle .button {
     font-family: 'Amatic SC', cursive;
-    text-shadow: 2px 2px #404040;
+    text-shadow: 2px 2px 3px #404040;
 }
 
 .contact-form{
