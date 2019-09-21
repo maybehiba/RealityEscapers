@@ -106,7 +106,7 @@ body {
 
 .middle .button {
     font-family: 'Amatic SC', cursive;
-    text-shadow: 2px;
+    text-shadow: 2px 2px;
     color: #a39f9f;
 }
 
